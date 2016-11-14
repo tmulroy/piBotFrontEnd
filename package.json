@@ -1,0 +1,22 @@
+{
+  "name": "pi_bot_front_end",
+  "version": "1.0.0",
+  "description": "frontend for raspberry pi robot arm",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmulroy/piBotFrontEnd.git"
+  },
+  "author": "tom mulroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmulroy/piBotFrontEnd/issues"
+  },
+  "homepage": "https://github.com/tmulroy/piBotFrontEnd#readme",
+  "dependencies": {
+    "pubnub": "^4.2.5"
+  }
+}
