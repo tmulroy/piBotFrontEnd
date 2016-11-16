@@ -1,9 +1,15 @@
 import React from 'react';
 import JointControl from './JointControl.jsx';
-const App = () => {
-  return (
-    <JointControl />
-  )
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <JointControl jointName="shoulder"/>
+        <JointControl jointName="elbow" />  
+      </div>
+    )
+  }
 }
 
 export default App;
