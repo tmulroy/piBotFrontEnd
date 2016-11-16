@@ -4,7 +4,8 @@
   "description": "frontend for raspberry pi robot arm",
   "main": "index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --progress --colors"
   },
   "repository": {
     "type": "git",
