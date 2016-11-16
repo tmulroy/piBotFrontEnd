@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Control = () => {
+const JointControl = () => {
   return (
     <div>Hello from control component</div>
   )
 }
 
-export default Control;
+export default JointControl;

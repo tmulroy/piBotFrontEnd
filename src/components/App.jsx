@@ -1,9 +1,11 @@
 import React from 'react';
-import Control from './Control.jsx';
+import JointControl from './JointControl.jsx';
 const App = () => {
   return (
-    <Control />
+    <JointControl />
   )
 }
 
 export default App;
+
+// need to create multiple jointcontrol with different jointnames props and callback method props
