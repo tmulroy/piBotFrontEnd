@@ -1,10 +1,8 @@
 import React from 'react';
-
+import Control from './Control.jsx';
 const App = () => {
   return (
-    <div>
-      hello from app
-    </div>
+    <Control />
   )
 }
 
