@@ -3,7 +3,7 @@ if (!process.env.AUTH_TOKEN) {
 }
 
 const path = require('path');
-const app = require('./app/app');
+const app = require('./app/app.js');
 const express = require('express');
 
 const webpack = require('webpack');
