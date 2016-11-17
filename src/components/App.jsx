@@ -1,6 +1,7 @@
 import React from 'react';
 import JointControl from './JointControl.jsx';
-import Pubnub from 'pubnub';
+import PubNub from 'pubnub';
+// import dotenv from 'dotenv';
 
 class App extends React.Component {
   constructor() {
