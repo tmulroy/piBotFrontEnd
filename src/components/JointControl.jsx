@@ -4,15 +4,23 @@ const propTypes = {
   jointName: React.PropTypes.string,
   publishPubNubMessage: React.PropTypes.func,
 }
+
 class JointControl extends React.Component {
   constructor() {
     super();
     this.buttonClickHandler = this.buttonClickHandler.bind(this)
   }
+
   buttonClickHandler(e) {
-    const name = e.target.name;
-    console.log(`${name} clicked for ${this.props.jointName} joint`)
+    const direction = e.target.name;
+    const joint = this.props.jointName;
+    const commandObj = {
+      joint,
+      direction,
+    }
+    this.props.publishPubNubMessage(commandObj);
   }
+
   render() {
     return (
       <div className="joint-buttons" id={this.props.jointName}>

@@ -7,8 +7,8 @@ class App extends React.Component {
     this.publishPubNubMessage = this.publishPubNubMessage.bind(this);
   }
 
-  publishPubNubMessage() {
-    console.log('hello from publishPubNubMessage')
+  publishPubNubMessage({ joint, direction }) {
+    console.log(`joint: ${joint}, direction: ${direction}`)
   }
 
   render() {
