@@ -7,10 +7,10 @@ const propTypes = {
 const JointControl = (props) => {
   return (
     <div className="joint-buttons" id={props.jointName}>
-      <button>Up</button>
-      <button>Down</button>
-      <button>Left</button>
-      <button>Right</button>
+      <button onClick={props.publishPubNubMessage}>Up</button>
+      <button onClick={props.publishPubNubMessage}>Down</button>
+      <button onClick={props.publishPubNubMessage}>Left</button>
+      <button onClick={props.publishPubNubMessage}>Right</button>
     </div>
   )
 }
