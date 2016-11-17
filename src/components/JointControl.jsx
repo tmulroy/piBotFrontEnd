@@ -1,8 +1,11 @@
 import React from 'react';
 
-const JointControl = () => {
+const propTypes = {
+  jointName: React.PropTypes.string,
+}
+const JointControl = (props) => {
   return (
-    <div>
+    <div className="joint-buttons" id={props.jointName}>
       <button>Up</button>
       <button>Down</button>
       <button>Left</button>
@@ -11,4 +14,5 @@ const JointControl = () => {
   )
 }
 
+JointControl.propTypes = propTypes;
 export default JointControl;
