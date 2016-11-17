@@ -15,6 +15,7 @@ app.post('/api/', (request, response) => {
   const joint = request.body.joint;
   pubnubBot.sendMessage({ direction, joint })
     .then((pubnubResponse) => {
+      // console.log(`pubnubresponse: ${pubnubResponse}`)
       response.status(204).send();
     })
     .catch((error) => {
