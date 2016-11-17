@@ -1,5 +1,6 @@
 import React from 'react';
 import JointControl from './JointControl.jsx';
+import Pubnub from 'pubnub';
 
 class App extends React.Component {
   constructor() {
@@ -8,7 +9,7 @@ class App extends React.Component {
   }
 
   publishPubNubMessage({ joint, direction }) {
-    console.log(`joint: ${joint}, direction: ${direction}`)
+    console.log(`joint: ${joint}, direction: ${direction}`);
   }
 
   render() {
