@@ -11,10 +11,6 @@ class PubnubMachine {
   }
 
   sendMessage({ direction, joint }) {
-    console.log(`publishkey: ${process.env.PUBLISH_KEY}`);
-    console.log(`subscribeKey: ${process.env.SUBSCRIBE_KEY}`);
-    console.log(`channel: ${this.channel}`)
-    console.log(`pubnub: ${this.pubnub}`);
     return new Promise((resolve, reject) => {
       this.pubnub.publish(
         {
