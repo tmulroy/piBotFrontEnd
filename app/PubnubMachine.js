@@ -7,4 +7,10 @@ class PubnubMachine {
       logVerbosity: false,
     })
   }
+
+  sendMessage() {
+    this.pubnub.publish({
+      
+    })
+  }
 }
