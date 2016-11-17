@@ -29,6 +29,7 @@
     "pubnub": "^4.2.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "superagent": "^2.3.0",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-dev-server": "^1.16.2",
