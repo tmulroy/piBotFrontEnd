@@ -10,7 +10,8 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 app.post('/api/', (request, response) => {
-  console.log()
+  response.status(200).send({direction: request.body.direction,
+  joint: request.body.joint})
 })
 
 module.exports = app;
