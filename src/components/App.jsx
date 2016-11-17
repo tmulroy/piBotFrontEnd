@@ -14,8 +14,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <JointControl jointName="shoulder"/>
-        <JointControl jointName="elbow" />
+        <JointControl jointName="shoulder"
+          publishPubNubMessage={this.publishPubNubMessage}
+          />
+        <JointControl jointName="elbow"
+          publishPubNubMessage={this.publishPubNubMessage}
+          />
       </div>
     )
   }

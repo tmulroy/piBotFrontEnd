@@ -2,6 +2,7 @@ import React from 'react';
 
 const propTypes = {
   jointName: React.PropTypes.string,
+  publishPubNubMessage: React.PropTypes.func,
 }
 const JointControl = (props) => {
   return (
