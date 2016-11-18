@@ -27,19 +27,19 @@ class JointControl extends React.Component {
         <button
           onClick={this.buttonClickHandler}
           name="up"
-          id="up">UP</button>
+          id="up">&#8593;</button>
         <button
           onClick={this.buttonClickHandler}
           name="down"
-          id="down">DOWN</button>
+          id="down">&#8595;</button>
         <button
           onClick={this.buttonClickHandler}
           name="left"
-          id="left">LEFT</button>
+          id="left">&#8592;</button>
         <button
           onClick={this.buttonClickHandler}
           name="right"
-          id="right">RIGHT</button>
+          id="right">&#8594;</button>
       </div>
     )
   }
