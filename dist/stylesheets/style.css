@@ -19,7 +19,7 @@ body {
 .joint-buttons {
   position: relative;
   height: 7rem;
-  width: 9%;
+  width: 7%;
 }
 
 button {
@@ -30,18 +30,20 @@ button {
 #up {
   position: relative;
   left: 40%;
+  top: 7.5%;
 }
 #down {
   position: relative;
-  top: 75%;
+  top: 67.5%;
   left: 15%;
 }
 #left {
   position: relative;
   top: 37%;
-  left: -50%;
+  left: -37.5%;
 }
 #right {
   position: relative;
   top: 35.5%;
+  left: -7.5%;
 }
