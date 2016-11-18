@@ -10,7 +10,6 @@ class App extends React.Component {
   }
 
   publishPubNubMessage({ joint, direction }) {
-    console.log(`joint: ${joint}, direction: ${direction}`);
     const url = '/api';
     request.post(url)
       .send({
@@ -18,9 +17,9 @@ class App extends React.Component {
         direction
       }).end((err, res) => {
         if (err) {
-          console.log(err)
+          console.log(`error: ${err}`)
         } else {
-          console.log(res)
+          console.log(`response: ${res}`)
         }
       })
   }
@@ -40,5 +39,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// need to create multiple jointcontrol with different jointnames props and callback method props
