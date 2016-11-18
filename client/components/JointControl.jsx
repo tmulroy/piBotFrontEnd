@@ -26,16 +26,20 @@ class JointControl extends React.Component {
       <div className="joint-buttons" id={this.props.jointName}>
         <button
           onClick={this.buttonClickHandler}
-          name="up">Up</button>
+          name="up"
+          id="up">UP</button>
         <button
           onClick={this.buttonClickHandler}
-          name="down">Down</button>
+          name="down"
+          id="down">DOWN</button>
         <button
           onClick={this.buttonClickHandler}
-          name="left">Left</button>
+          name="left"
+          id="left">LEFT</button>
         <button
           onClick={this.buttonClickHandler}
-          name="right">Right</button>
+          name="right"
+          id="right">RIGHT</button>
       </div>
     )
   }

@@ -29,9 +29,11 @@ class App extends React.Component {
       <div>
         <JointControl jointName="shoulder"
           publishPubNubMessage={this.publishPubNubMessage}
+          id="shoulder"
           />
         <JointControl jointName="elbow"
           publishPubNubMessage={this.publishPubNubMessage}
+          id="elbow"
           />
       </div>
     )

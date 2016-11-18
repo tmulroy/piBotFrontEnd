@@ -10,14 +10,13 @@ pubnub.addListener({
   message: (m) => {
     const channelName = m.channel;
     const msg = m.message;
-    console.log(`msg.direction: ${msg.direction}`)
+    console.log('------------------------');
+    console.log(`joint: ${msg.joint}`);
+    console.log(`direction: ${msg.direction}`);
+
   },
   presence: (p) => {
-    const action = p.action;
     const channelName = p.channel;
-    const occupancy = p.occupancy;
-    const state = p.state;
-    const channelGroup = p.subscription;
     const publishTime = p.timestamp;
     const timetoken = p.timetoken;
     const uuid = p.uuid;

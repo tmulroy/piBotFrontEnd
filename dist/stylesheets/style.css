@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  position: relative;
+  height: 40rem;
+  width: 99%;
+  border: 1px solid red;
+}
+
+#shoulder {
+  border: 1px solid green;
+}
+
+#elbow {
+  border: 1px solid orange;
+  top: 15rem;
+}
+
+.joint-buttons {
+  position: relative;
+  height: 7rem;
+  width: 9%;
+}
+
+button {
+  height: 25%;
+  width: 25%;
+}
+
+#up {
+  position: relative;
+  left: 40%;
+}
+#down {
+  position: relative;
+  top: 75%;
+  left: 15%;
+}
+#left {
+  position: relative;
+  top: 37%;
+  left: -50%;
+}
+#right {
+  position: relative;
+  top: 35.5%;
+}
