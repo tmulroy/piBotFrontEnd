@@ -13,6 +13,7 @@ body {
 #elbow {
   border: 1px solid orange;
   top: 15rem;
+  left: 50%;
 }
 
 .joint-buttons {
